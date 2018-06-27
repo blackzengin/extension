@@ -1319,6 +1319,15 @@
 							count++;
 						}
 					}
+					//sorting ikea stores in list
+					var mobileCClist2 = document.getElementById("ext-cc-input-lower-field");
+					for (i=1; i<mobileCClist2.children.length; i++) {
+						for (c=i; c<mobileCClist2.children.length; c++) {
+							if (mobileCClist2.children[i].textContent > mobileCClist2.children[c].textContent) {      
+								mobileCClist2.insertBefore(mobileCClist2.children[c], mobileCClist2.children[i]);
+							}
+						}    
+					}
 				},
 				failure: function(data){
 					//Could not add click and collect locations to dropdown

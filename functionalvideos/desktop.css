@@ -1,0 +1,45 @@
+.imageThumb {
+    float: inherit !important;
+}
+
+.videoThumb {
+    display: block;
+    margin: auto;
+    width: 45% !important;
+    border: 0px solid #fff !important;
+}
+
+ .videoDiv_1 {
+     border: 1px solid #eee;
+     background-color: #fff;
+     height: 112px !important;
+     width: 112px !important;
+ }
+
+#videoThumb_1 {
+    background-size: 90% 90% !important;
+    object-fit: contain;
+    width: 110px;
+    height: 112px;
+    margin-bottom: 0px !important;
+}
+
+#productVideo {
+    display: none;
+    padding-top: 100px;
+    padding-bottom: 85px;
+}
+
+.firstThumbnail {
+   height: 112px;
+   width: 112px;
+}
+
+.firstThumb {
+   width: 110px;
+   height: 110px;
+}
+
+#imgID_0.firstThumb.active {
+   border-color: #3399fb;
+}

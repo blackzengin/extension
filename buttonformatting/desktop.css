@@ -1,0 +1,46 @@
+/*		
+
+  _                      _                                   
+ |_)    _|_ _|_  _  ._  |_ _  ._ ._ _   _. _|_ _|_ o ._   _  
+ |_) |_| |_  |_ (_) | | | (_) |  | | | (_|  |_  |_ | | | (_| 
+                                                          _| 
+
+*/
+
+.productLists .buttonsContainer .blueBtn, 
+.productLists .buttonsContainer .orangeBtn { 
+	width: 96%;   
+}
+
+#buttonBorder2 .buttonContainer, 
+#buttonBorder3 .buttonContainer, 
+#shoppingCartButton .buttonContainer {
+	top: 0 !important;
+}
+
+div.buttonContainer a{
+	/*width: 290px;*/
+}
+
+.btnBlueCustom {
+	width: 80%!important;
+	margin-top: 10px!important;
+	margin-bottom: 0px!important;
+}
+
+.btnOrangeCustom {
+	width: 77%!important;
+	margin-top: 10px!important;
+	margin-bottom: 0px!important;
+} 
+
+.productContainer .buttonsContainer .buttonContainer {
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+.sc_product_container .actionBlock .blueBtn,
+.sc_product_container .actionBlock .orangeBtn,
+.sc_buy_online_button_box .buttonContainer .blueBtn{ 
+	width: 88%;   
+}
